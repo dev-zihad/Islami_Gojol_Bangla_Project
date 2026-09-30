@@ -1,0 +1,39 @@
+<resources>
+
+
+
+    <!-- Base application theme. -->
+    <style name="ThemeHome" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/purple_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+
+
+    <!-- Video Player Theme -->
+    <style name="ThemeVideoPlayer" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/purple_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="roundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">70%</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

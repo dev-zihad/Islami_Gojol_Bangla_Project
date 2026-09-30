@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Islami Gojol-Bangla</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- Admob AD ON or OFF -->
+    <string name="show_admob_ad">OFF</string>
+
+    <!-- Device ID  setTestDeviceIds (search on logcat for device id) -->
+    <string name="device_id">625F6F95FF88C29D7895488F28511C75</string>
+
+    <!-- Admob APP ID HERE -->
+    <string name="admob_APP_ID">ca-app-pub-4627005629315193~4110017197</string>
+    <!-- Admob Ad Unit IDS Here -->
+    <string name="admob_INTERSTITIAL_UNIT_ID">ca-app-pub-4627005629315193/3574351644</string>
+    <string name="admob_BANNER_UNIT_ID">ca-app-pub-4627005629315193/5901132086</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

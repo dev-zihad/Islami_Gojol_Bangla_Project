@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:id="@+id/group1"
+
+        android:checkableBehavior="single"
+        >
+
+        <item android:title=" ">
+            <menu>
+
+                <item
+                    android:id="@+id/shareApps"
+                    android:title="শেয়ার অ্যাপস"
+                    android:icon="@drawable/baseline_share_24"
+                    android:checkable="true"
+
+                    />
+                <item
+                    android:id="@+id/moreApps"
+                    android:title="আরও অ্যাপস"
+                    android:icon="@drawable/baseline_apps_24"
+                    android:checkable="true"
+
+                    />
+
+                <item
+                    android:id="@+id/rateUs"
+                    android:title="রেটিং দিন "
+                    android:icon="@drawable/baseline_star_rate_24"
+                    android:checkable="true"
+
+                    />
+                <item
+                    android:id="@+id/exit"
+                    android:title="বাহির "
+                    android:checkable="true"
+                    android:icon="@drawable/baseline_exit_to_app_24"
+                    />
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+    <group
+        android:id="@+id/group2"
+
+        >
+        <item
+            android:id="@+id/privacy"
+            android:title="গোপনীয়তা নীতি"
+            android:icon="@drawable/baseline_privacy_tip_24"
+            android:checkable="true"
+
+            />
+
+
+    </group>
+
+
+</menu>
